@@ -8,9 +8,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+
+    <script>
+      function toggleDarkMode() {
+          var body = document.body;
+          body.classList.toggle('dark-mode');
+      }
+  </script>
 </head>
 <body>
     <div class="top-container">
+        <button class="dark-mode-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
         <img class="top-cloud" src="static/images/cloud.png" alt="cloud-img">
         <h1>I'm Lokesh.</h1>
         <h2>A Web Developer.</h2>

@@ -4,6 +4,17 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode .top-container {
+    background-color: #333;
+    color: #fff;
+}
+
+
 hr {
     color: #E3ACF9;
     border-style: none;
@@ -118,5 +129,23 @@ a {
     width: 25%;
     float: right;
     margin-left: 30px;
+}
+
+.dark-mode-toggle {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #e2a0fc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.dark-mode-toggle:hover {
+    background-color: #d780fa;
 }
 
